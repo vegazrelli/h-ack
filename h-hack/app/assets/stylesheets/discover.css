@@ -1,0 +1,42 @@
+body {
+  background-image: url(sfondo_a_1080_1920.gif); 
+}
+
+ .search_bar_container {
+  position: relative;
+  top: 370px;
+  max-width: 600px;
+  margin: 0 auto;
+ }
+
+ .keywords {
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style: none;
+  padding: 1em;
+  text-align: right;
+ }
+
+.keywords li {
+  margin-bottom: 0.5em;
+
+}
+
+.keyword {
+  background-color: rgba(0, 128, 128, 0.8);
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding: 0.3em 0.6em;
+  border-radius: 5px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+.keyword .remove_keyboard {
+  margin-left: 0.5em;
+  color: inherit;
+  position: relative;
+  top: 0.08em;
+
+}
+
