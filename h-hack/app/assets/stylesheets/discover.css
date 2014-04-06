@@ -1,7 +1,15 @@
+
+@font-face {
+font-family: SegoeWP-Light;
+src: url(fonts/SegoeWP-Light.ttf);
+}
+
 body {
   background-image: url(freedom1.jpg); 
   background-size: cover;
   background-attachment: fixed; 
+  font-family: SegoeWP-Light;
+
 
 }
 
@@ -71,6 +79,7 @@ body {
   padding: 15.5em 2em 2em;
   left: 50%;
   top: 100%;
+  cursor: pointer;
 }
 
 .result .photo {
@@ -83,11 +92,35 @@ body {
 }
 
 .result img {
-  max-width: 110%
+  width: 100%;
+  min-height: 85%;
 }
 
 .result .caption {
   text-align: right;
   font-size: 0.7em;
+}
+
+#vivi, #grazie_attenzione, #vivi_amico {
+  width: 100%;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+}
+
+.action_buttons {
+  background: #00F;
+  background-color: rgba(0, 118, 201, 0.78);
+  color: white;
+  position: relative;
+  display: table;
+  padding: 0.8em 1em;
+  border-radius: 5px;
+  left: 1.5em;
+}
+
+.action_buttons a {
+  color: white;
+  font-size: 1.2em;
 }
 

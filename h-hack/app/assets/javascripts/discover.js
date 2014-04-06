@@ -12,52 +12,35 @@ var results = {
     { imgSrc: "assets/parigi/9.JPG", caption: "A presto Parigi", userName: "Michele Rota",top: "0", left: "31.5em", fontSize: "2.05em" },
     { imgSrc: "assets/parigi/10.JPG", caption: "Una città e un viaggio che mi rimarrà nel cuore!", userName: "Riccardo Pressiani",top: "30.5em", left: "36.5em", fontSize: "1.3em" },
     { imgSrc: "assets/parigi/11.JPG", caption: "Da vivere", userName: "Hackim Abdalla",top: "22.6em", left: "39.6em", fontSize: "1.75em" },
-    // { imgSrc: "assets/parigi/12.JPG", caption: "Un emozione unica.", userName: "Giorgia Previtali",top: "5%", left: "10%", fontSize: "1em" },
-    // { imgSrc: "assets/parigi/0.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    // { imgSrc: "assets/parigi/0.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    // { imgSrc: "assets/parigi/0.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    // { imgSrc: "assets/parigi/0.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    // { imgSrc: "assets/parigi/0.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
   ],
   defaultResults: [
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Che esperienza!", userName: "vegaz",top: "0", left: "1%", fontSize: "1.5em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Una di quelle cose da NON PERDERE a Parigi!",userName: "vegaz",top: "0", left: "25%", fontSize: "1.3em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Di sicuro nella mia TOP10!", userName: "vegaz",top: "34%", left: "31%", fontSize: "0.8em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Bello...", userName: "vegaz",top: "60%", left: "43%", fontSize: "1.em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Da vedere!", userName: "vegaz",top: "5%", left: "58%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Mmm.. non mi ha convinto..", userName: "vegaz",top: "5%", left: "4%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Perchè no, andateci..", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Fenomenale!", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Un classico, ma non perde il suo fascino..", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "THE BEST!", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Non potete perdervelo!", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La cosa migliore che ho trovato a Parigi", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "Bello, ma mi aspettavo di più", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
+    { imgSrc: "assets/default_results/0.jpg", caption: "Che esperienza!", userName: "Davide Valsecchi",top: "0%", left: "1em", fontSize: "1.5em" },
+    { imgSrc: "assets/default_results/1.jpg", caption: "Una di quelle cose da NON PERDERE a Parigi!",userName: "Andrea Zanini", top: "0", left: "20em", fontSize: "1.3em" },
+    { imgSrc: "assets/default_results/2.jpg", caption: "Di sicuro nella mia TOP10!", userName: "Erica Riceputi",top: "0", left: "47.5em", fontSize: "1em" },
+    // { imgSrc: "assets/default_results/3.jpg", caption: "Bello...", userName: "Giulia Stornante",top: "47em", left: "47em", fontSize: "1em" },
+    { imgSrc: "assets/default_results/4.jpg", caption: "Da vedere!", userName: "Giuseppe Rota",top: "41em", left: "19.5em", fontSize: "0.72em" },
+    { imgSrc: "assets/default_results/5.jpg", caption: "Mmm.. non mi ha convinto..", userName: "Andrea Maconi",top: "20em", left: "47.5em", fontSize: "1em" },
+    { imgSrc: "assets/default_results/6.jpg", caption: "Perchè no, andateci..", userName: "Il Bobe",top: "0", left: "56em", fontSize: "1.35em" },
+    { imgSrc: "assets/default_results/7.jpg", caption: "Fenomenale!", userName: "Martina Lodetti",top: "41em", left: "2.2em", fontSize: "0.72em" },
+    { imgSrc: "assets/default_results/8.jpg", caption: "Un classico, ma non perde il suo fascino..", userName: "Umberto Mazzotti",top: "19.5em", left: "20em", fontSize: "1.3em" },
+    { imgSrc: "assets/default_results/9.jpg", caption: "THE BEST!", userName: "Michele Rota",top: "0", left: "31.5em", fontSize: "2.05em" },
+    { imgSrc: "assets/default_results/10.jpg", caption: "Non potete perdervelo!", userName: "Riccardo Pressiani",top: "30.5em", left: "36.5em", fontSize: "1.3em" },
+    { imgSrc: "assets/default_results/11.jpg", caption: "La cosa migliore che ho trovato a Parigi", userName: "Riccardo Pressiani",top: "30.5em", left: "36.5em", fontSize: "1.3em" },
+    { imgSrc: "assets/default_results/12.jpg", caption: "Bello, ma mi aspettavo di più", userName: "Hackim Abdalla",top: "22.6em", left: "39.6em", fontSize: "1.75em" },
   ],
-  cibo: [
-    { imgSrc: "assets/GOPR0458.JPG", caption: "delizioso",userName: "Davide Valsecchi",top: "0", left: "1%", fontSize: "1.3em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "da gustare in giro", userName: "Andrea Zanini",top: "0", left: "25%", fontSize: "1.3em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "perfetto per una merenda a parigi", userName: "Erica Riceputi",top: "34%", left: "31%", fontSize: "0.8em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "così buono!!", userName: "Giulia Stornante",top: "60%", left: "43%", fontSize: "1.em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "mmm!", userName: "Giuseppe Rota",top: "5%", left: "58%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "non mi ha convinto", userName: "Andrea Maconi",top: "5%", left: "4%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "proprio no", userName: "Il Bobe",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "fantastico", userName: "Martina Lodetti",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "ho un palato sopraffino ma mi ha convinto!", userName: "Umberto Mazzotti",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "proprio no", userName: "Michele Rota",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "da provare assolutamente", userName: "Riccardo Pressiani",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "il sapore di parigi!", userName: "Hackim Abdalla",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "da gustare con una bella passeggiata", userName: "Giorgia Previtali",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
-    { imgSrc: "assets/GOPR0458.JPG", caption: "La mia scalata", userName: "vegaz",top: "5%", left: "10%", fontSize: "1em" },
+  brunch: [
+    { imgSrc: "assets/parigi_cibo/0.jpg", caption: "delizioso", userName: "Davide Valsecchi",top: "0%", left: "1em", fontSize: "1.5em" },
+    { imgSrc: "assets/parigi_cibo/1.jpg", caption: "da gustare in giro", userName: "Andrea Zanini",top: "0", left: "20em", fontSize: "1.3em" },
+    { imgSrc: "assets/parigi_cibo/2.jpg", caption: "perfetto per una merenda a parigi", userName: "Erica Riceputi",top: "0", left: "47.5em", fontSize: "1em" },
+    { imgSrc: "assets/parigi_cibo/3.jpg", caption: "così buono!!", userName: "Giulia Stornante",top: "47em", left: "47em", fontSize: "1em" },
+    { imgSrc: "assets/parigi_cibo/4.jpg", caption: "mmm!", userName: "Giuseppe Rota",top: "41em", left: "19.5em", fontSize: "0.72em" },
+    { imgSrc: "assets/parigi_cibo/5.jpg", caption: "non mi ha convinto", userName: "Andrea Maconi",top: "20em", left: "47.5em", fontSize: "1em" },
+    { imgSrc: "assets/parigi_cibo/6.jpg", caption: "proprio no", userName: "Il Bobe",top: "0", left: "56em", fontSize: "1.35em" },
+    { imgSrc: "assets/parigi_cibo/7.jpg", caption: "fantastico", userName: "Martina Lodetti",top: "41em", left: "2.2em", fontSize: "0.72em" },
+    { imgSrc: "assets/parigi_cibo/8.jpg", caption: "ho un palato sopraffino ma mi ha convinto!", userName: "Umberto Mazzotti",top: "19.5em", left: "20em", fontSize: "1.3em" },
+    { imgSrc: "assets/parigi_cibo/9.jpg", caption: "proprio no", userName: "Michele Rota",top: "0", left: "31.5em", fontSize: "2.05em" },
+    { imgSrc: "assets/parigi_cibo/10.jpg", caption: "da provare assolutamente", userName: "Riccardo Pressiani",top: "30.5em", left: "36.5em", fontSize: "1.3em" },
+    { imgSrc: "assets/parigi_cibo/11.jpg", caption: "il sapore di parigi!", userName: "Hackim Abdalla",top: "22.6em", left: "39.6em", fontSize: "1.75em" },
   ],
 };
 
@@ -82,7 +65,7 @@ $(document).on("click", ".keyword .remove_keyboard",function(e){
 });
 
 $("#search").on("change", function() {
-  var keywordContent = $(this).val();
+  var keywordContent = $(this).val().toLowerCase();;
   allKeywords.push(keywordContent);
   if (keywordContent !== "") {
     var keyword = $("<span class='keyword'># " + $(this).val() + "<a href='#'' class='remove_keyboard'>×</a></span>");
@@ -130,7 +113,7 @@ function showResults(keyword) {
     result.css({fontSize: resultsFor[i]["fontSize"]});
     $(".results").append(result);
     console.log("enter");
-    result.animate({top:  resultsFor[i]["top"], left:  resultsFor[i]["left"], fontSize: resultsFor[i]["font"]});
+    result.animate({top:  resultsFor[i]["top"], left:  resultsFor[i]["left"], fontSize: resultsFor[i]["font"]}, 600);
   }
 }
 
@@ -138,41 +121,75 @@ $(window).on("load", function(){
   var bodyWidth          = $("body").width();
   var resultsContainer   = $(".results");
 
-  if(bodyWidth < 801) {
-    resultsContainer.css({fontSize: "0.5em"});
-  } else if (bodyWidth < 960) {
-    resultsContainer.css({fontSize: "0.6em"});
-  } else if (bodyWidth < 1153) {
-    resultsContainer.css({fontSize: "0.7em"});
-  } else if (bodyWidth < 1281) {
-    resultsContainer.css({fontSize: "0.8em"});
-  } else if (bodyWidth < 1361) {
-    resultsContainer.css({fontSize: "0.9em"});
-  } else {
-    resultsContainer.css({fontSize: "1em"});
-  }
+  // if(bodyWidth < 801) {
+  //   resultsContainer.css({fontSize: "0.5em"});
+  // } else if (bodyWidth < 960) {
+  //   resultsContainer.css({fontSize: "0.6em"});
+  // } else if (bodyWidth < 1153) {
+  //   resultsContainer.css({fontSize: "0.7em"});
+  // } else if (bodyWidth < 1281) {
+  //   resultsContainer.css({fontSize: "0.8em"});
+  // } else if (bodyWidth < 1361) {
+  //   resultsContainer.css({fontSize: "0.9em"});
+  // } else {
+  //   resultsContainer.css({fontSize: "1em"});
+  // }
   setTimeout(function() {
     showResults();
-  }, 2000);
+    setTimeout(function() {
+      setResultsFont();
+    }, 800);
+  }, 1000);
 
 
 });
 
+
+  
 $(window).resize(function() {
+  setResultsFont();
+});
+
+function setResultsFont() {
   var bodyWidth          = $("body").width();
   var resultsContainer   = $(".results");
 
-  if(bodyWidth < 801) {
-    resultsContainer.css({fontSize: "0.5em"});
-  } else if (bodyWidth < 960) {
-    resultsContainer.css({fontSize: "0.6em"});
-  } else if (bodyWidth < 1153) {
-    resultsContainer.css({fontSize: "0.7em"});
-  } else if (bodyWidth < 1281) {
-    resultsContainer.css({fontSize: "0.8em"});
-  } else if (bodyWidth < 1361) {
-    resultsContainer.css({fontSize: "0.9em"});
-  } else {
-    resultsContainer.css({fontSize: "1em"});
+  console.log(bodyWidth);
+  console.log(resultsContainer);
+
+  var lastElement = $(".results .result:nth-child(10)");
+  var maxIteration = 100;
+  while(maxIteration > 0 && lastElement.offset().left + lastElement.width() > resultsContainer.width()) {
+    console.log(parseInt(resultsContainer.css("fontSize").replace("px")) - 1);
+    resultsContainer.css({fontSize: parseInt(resultsContainer.css("fontSize").replace("px")) - 1});
+    maxIteration--;
+
   }
+}
+
+$(".action_buttons").click(function(e){
+  e.preventDefault();
+  $("#vivi").css({zIndex: 5});
+  $("#vivi").animate({opacity: 1}, 800);
+
+});
+
+$("#vivi").click(function(e) {
+  e.preventDefault();
+  $("#vivi").animate({opacity: 0}, 400, function(){
+    $("#vivi").css({zIndex: 0});
+  });
+});
+
+$(document).on("click", ".result", function(e) {
+  e.preventDefault();
+  $("#vivi_amico").css({zIndex: 10});
+  $("#vivi_amico").animate({opacity: 1}, 800);
+
+});
+
+$("#vivi_amico").click(function(e) {
+  e.preventDefault();
+  $("#grazie_attenzione").css({zIndex: 20});
+  $("#grazie_attenzione").animate({opacity: 1}, 800);
 });

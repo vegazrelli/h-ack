@@ -1,9 +1,18 @@
-<div class="header"></div>
+<%= image_tag "vivi.jpg", id: "vivi" %>
+<%= image_tag "vivi_amico.jpg", id: "vivi_amico" %>
+<%= image_tag "grazie_attenzione.jpg", id: "grazie_attenzione" %>
+<div class="header">
+  <div class="action_buttons" href="#">
+    <a href="#" class="vivi">Vivi</a> |
+    <a href="#" class="vivi">Profilo</a> |
+    <a href="#" class="vivi">Logout</a>
+  </div>
+</div>
 <div class="search_bar_container">
   <%= image_tag "uplace_logo_200_shadow.png" %>
   <div class="row">
     <div class="small-12 columns">
-        <%= text_field_tag "search", "" %>
+        <%= text_field_tag "search", "", placeholder: "Scrivi una parola chiave tipo \"Parigi\"" %>
     </div>
   </div>
 </div>
