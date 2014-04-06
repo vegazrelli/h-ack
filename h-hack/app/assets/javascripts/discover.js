@@ -135,9 +135,12 @@ $(window).on("load", function(){
   //   resultsContainer.css({fontSize: "1em"});
   // }
   setTimeout(function() {
-    showResults();
+    $(".blur").animate({opacity: 1}, 800);
     setTimeout(function() {
-      setResultsFont();
+      showResults();
+      setTimeout(function() {
+        setResultsFont();
+      }, 1000);
     }, 800);
   }, 1000);
 

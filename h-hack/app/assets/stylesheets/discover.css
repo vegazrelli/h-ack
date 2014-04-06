@@ -9,8 +9,19 @@ body {
   background-size: cover;
   background-attachment: fixed; 
   font-family: SegoeWP-Light;
+}
 
-
+.blur {
+  background-image: url(bg_blur.jpg); 
+  background-size: cover;
+  background-attachment: fixed; 
+  transition: background-image 0.3s ease-in-out;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .header {
